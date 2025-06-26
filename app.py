@@ -29,5 +29,5 @@ gr.Interface(
     ],
     outputs=gr.Image(type="pil", label="Detected Objects"),
     title="YOLOv8 Waste Detection Dashboard",
-    description="Upload an image or use webcam to detect waste objects (e.g., garbage, plastic, glass). Adjust the confidence threshold below to filter predictions."
+    description="Upload an image or use webcam to detect waste objects (e.g., paper, plastic, glass). Adjust the confidence threshold below to filter predictions."
 ).launch()
