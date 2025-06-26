@@ -6,7 +6,7 @@ A real-time object detection gradio app that identifies and labels different typ
 
 ## 📊 Dataset Used
 - Source: [fresh-waste-object-detection](https://universe.roboflow.com/workspace-4fppt/fresh-waste-object-detection/dataset/3)
-- Classes: `plastic`, `metal`, `glass`, `paper`, `organic`
+- Classes: `glass`, `kitchen waste`, `metal`, `paper`, `plastic`
 - Train/Val/Test Split: 1300 / 357 / 178 images
 
 ---
