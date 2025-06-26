@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['glass', 'kitchen_waste', 'metal', 'paper', 'plastic']
+
+roboflow:
+  workspace: workspace1-wcbhg
+  project: fresh-waste-object-detection-dqiyx
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/workspace1-wcbhg/fresh-waste-object-detection-dqiyx/dataset/1
